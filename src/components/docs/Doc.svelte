@@ -22,14 +22,6 @@
 		<div class="pl-2">
 			<div class="flex mt-4 mb-3">
 				<FolderIcon />
-				<span class="pl-2">pages</span>
-			</div>
-			<div class="flex mt-4 mb-3">
-				<FolderIcon />
-				<span class="pl-2">public</span>
-			</div>
-			<div class="flex mt-4 mb-3">
-				<FolderIcon />
 				<span class="pl-2">src</span>
 			</div>
 			<div class="pl-5 flex mb-3">
