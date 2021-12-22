@@ -3,7 +3,6 @@
 	import JsIcon from './icons/JsIcon.svelte';
 	import SvelteIcon from './icons/SvelteIcon.svelte';
 	import FolderIcon from './icons/FolderIcon.svelte';
-	import FileIcon from './icons/FileIcon.svelte';
 </script>
 
 <div class="py-8 max-w-full text-white">
@@ -226,7 +225,7 @@
 				<strong class="px-1">routes</strong>folder
 			</li>
 			<li class="mb-3">
-				Wrap your <strong>routes/_layout.svelte</strong> with the
+				Wrap <strong>routes/__layout.svelte</strong> with the
 				<strong class="px-1">Layout</strong>component from <strong>dashboard/Layout.svelte</strong>
 			</li>
 		</ul>
@@ -278,9 +277,9 @@
 		</p>
 		<p class="mt-5">
 			The sidenav scrollbar is hidden by default but you can still scroll with the keyboards if you
-			have several sidenav-items. If you are not a fan of this approach, you can always change its
-			style in the
-			<strong class="px-1">style.module.css</strong>file
+			have several sidenav-items. If you are not a fan of this approach, you can always change the
+			style in
+			<strong class="px-1">dashboard/sidenavigation/Index.svelte</strong>
 		</p>
 		<p class="mt-5">
 			In the <strong> dashboard/Layout.svelte</strong> file, the
