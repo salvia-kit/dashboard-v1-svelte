@@ -2,7 +2,7 @@
 	import SidenavItems from './Items.svelte';
 	import SidenavHeader from './Header.svelte';
 	import { open, closeSidenav } from '../provider/store';
-	import { clickOutside } from '../provider/clickOutside';
+	import { clickOutside } from '../provider/click-outside';
 
 	const style = {
 		left: 'left-0',
@@ -16,11 +16,11 @@
 	use:clickOutside
 	on:click_outside={closeSidenav}
 	class={`
+			top-0
 	    scrollbar
       bg-gray-900
       h-screen
       overflow-y-auto
-      top-0
       lg:bg-transparent lg:block lg:relative lg:w-64 lg:z-auto 
       ${style[mobilePosition]} 
       ${$open ? 'absolute w-8/12 z-40 sm:w-5/12' : 'hidden'}

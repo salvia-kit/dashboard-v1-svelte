@@ -150,7 +150,7 @@
             md:w-1/4
           "
 			>
-				<a class="block pr-1 text-white">
+				<span class="block pr-1 text-white">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-6 w-6"
@@ -159,8 +159,8 @@
 					>
 						<path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z" />
 					</svg>
-				</a>
-				<a href="#" class="block inline-block px-3 py-2 relative rounded text-white">
+				</span>
+				<span class="block inline-block px-3 py-2 relative rounded text-white">
 					<span>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -188,14 +188,14 @@
 					>
 						3
 					</span>
-				</a>
-				<a href="#" class="block pl-5 relative">
+				</span>
+				<span class="block pl-5 relative">
 					<img
 						alt="Enoch Ndika"
 						src="/images/1.jpg"
 						class="h-10 mx-auto object-cover rounded-full w-10"
 					/>
-				</a>
+				</span>
 			</div>
 		</div>
 	</div>
